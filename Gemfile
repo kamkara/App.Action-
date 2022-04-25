@@ -76,6 +76,10 @@ end
 
 ############ PROJET GEMS ###########
 
+############ FORMS GEMS ###########
+gem 'simple_form', '~> 5.1'
+gem 'bootstrap_form', '~> 5.0'
+
 ############ MEMBERSHHIP GEMS ###########
 gem 'devise', '~> 4.8', '>= 4.8.1'
 

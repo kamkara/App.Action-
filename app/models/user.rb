@@ -14,7 +14,7 @@ class User < ApplicationRecord
               length: { minimum:5, maximum: 30,
               message: "%{value} verifier votre nom complet"}
 
-   validates :contact, uniqueness: true, numericality: { only_integer: true }
+   validates :full_contact, :email, uniqueness: true
               
    
 
@@ -27,6 +27,7 @@ class User < ApplicationRecord
     full_name_changed?
   end 
  
+  
   ################## BEFORE SAVE  #########
   before_save do
     self.country            = country.strip.squeeze(" ")

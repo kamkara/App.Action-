@@ -12,7 +12,4 @@ module BuildCustomUrl
    def slug
     self.slug = "#{self.full_name}" 
    end
-    
-  
-
 end 

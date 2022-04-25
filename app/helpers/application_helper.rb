@@ -54,7 +54,7 @@ module ApplicationHelper
 
   #Navbar
   def render_navbar
-    render "layouts/navbar" 
+    render "welcome/shared/navbar" 
     
   end
 

@@ -54,12 +54,13 @@ module ApplicationHelper
 
   #Navbar
   def render_navbar
-    turbo_stream.prepend "", partial: "layouts/navbar"
+    render "layouts/navbar" 
+    
   end
 
   # Notification
   def render_notification
-    turbo_stream.prepend "", partial: "layouts/navbar"
+    render "layouts/flash"
   end
 
 end

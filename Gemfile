@@ -76,6 +76,9 @@ end
 
 ############ PROJET GEMS ###########
 
+############ MEMBERSHHIP GEMS ###########
+gem 'devise', '~> 4.8', '>= 4.8.1'
+
 ############ ICONS GEMS ###########
 gem 'bootstrap-glyphicons', '~> 0.0.1'
 

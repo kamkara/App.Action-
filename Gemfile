@@ -79,6 +79,8 @@ end
 ############ FORMS GEMS ###########
 gem 'simple_form', '~> 5.1'
 gem 'bootstrap_form', '~> 5.0'
+gem 'friendly_id', '~> 5.4', '>= 5.4.2'
+
 
 ############ MEMBERSHHIP GEMS ###########
 gem 'devise', '~> 4.8', '>= 4.8.1'

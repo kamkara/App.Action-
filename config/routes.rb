@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root to:'welcome#index'
   
   get "adhesion", to:'membership#adherant'
+  get "memberslist", to:'membership#memberslist'
   get "admin", to:'membership#admin'
   get "dashboard", to:'membership#espaceAdmin'
   get "dashboard-adherant", to:'membership#espaceMember'
